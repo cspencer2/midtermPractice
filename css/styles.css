@@ -21,7 +21,7 @@ nav a:active {
 	background: aqua;
 }
 
-#first a:hover{
+#first a:hover {
 	background: url("../img/click.png") no-repeat left center;
 }
 
