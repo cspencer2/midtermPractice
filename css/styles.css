@@ -1,12 +1,38 @@
 body {
 	background: url("../img/bg.png");
-}
-
-p {
 	font-family: 'Open Sans', sans-serif;
-	color: blue;
 }
-
+ 
+/* Base Nav Styling */
+nav li {
+	float: left;
+	list-style: none;
+	margin: 0 20px;
+}
+ 
+/* Link States */
+nav a:link,
+nav a:visited {
+	color: #fff;
+	padding: 20px 20px 20px 60px;
+	text-decoration: none;
+}
+ 
+nav a:hover,
+nav a:active {
+	background: rgb(169,169,169);
+}
+ 
+/* Hover */ 
+#first a:hover {
+	background: url("../img/bottle.png") no-repeat left center;
+}
+ 
+/* Advanced Selection */
+aside h3 + img {
+	border: 4px solid black;
+} 
+ 
 /* Helper Classes */
 .showgrid {
 	background: url("../img/grid-bg.png");
