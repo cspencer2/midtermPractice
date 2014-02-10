@@ -2,38 +2,29 @@ body {
 	background: url("../img/bg.png");
 	font-family: 'Open Sans', sans-serif;
 }
- 
-/* Base Nav Styling */
+
 nav li {
-	float: left;
+	float: left;	
 	list-style: none;
 	margin: 0 20px;
 }
- 
-/* Link States */
+
 nav a:link,
 nav a:visited {
-	color: #fff;
-	padding: 20px 20px 20px 60px;
+	color: white;
+	margin: 20px 20px 20px 60px;
 	text-decoration: none;
 }
- 
+
 nav a:hover,
 nav a:active {
-	background: rgb(169,169,169);
+	background: aqua;
 }
- 
-/* Hover */ 
-#first a:hover {
+
+#first a:hover{
 	background: url("../img/click.png") no-repeat left center;
 }
- 
-/* Advanced Selection */
+
 aside h3 + img {
 	border: 4px solid black;
-} 
- 
-/* Helper Classes 
-.showgrid {
-	background: url("../img/grid-bg.png");
-}*/
+}
